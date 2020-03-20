@@ -39,10 +39,10 @@ CREATE TABLE `rss` (
 --
 
 INSERT INTO `rss` (`id`, `mail`, `url`) VALUES
-(190, 'izaaa1994@yahoo.com', 'https://www.tvn24.pl/najwazniejsze.xml'),
+(190, 'drozdkamil@gmail.com', 'https://www.tvn24.pl/najwazniejsze.xml'),
 (192, 'drozdkamil@gmail.com', 'https://www.tvn24.pl/najnowsze.xml'),
-(193, 'izaaa1994@yahoo.com', 'https://www.tvn24.pl/najnowsze.xml'),
-(194, 'izaaa1994@yahoo.com', 'https://ekstraklasa.tv/ekstraklasa-tv,83,m.xml');
+(193, 'drozdkamil@gmail.com', 'https://www.tvn24.pl/najnowsze.xml'),
+(194, 'drozdkamil@gmail.com', 'https://ekstraklasa.tv/ekstraklasa-tv,83,m.xml');
 
 --
 -- Indeksy dla zrzutów tabel
