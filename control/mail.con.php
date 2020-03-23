@@ -16,19 +16,19 @@ $mail->Username = 'cafa5424-a5d9-4450-abd3-92917d45efe3';   // SMTP username
 $mail->Password = 'cafa5424-a5d9-4450-abd3-92917d45efe3';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable encryption, only 'tls' is accepted
 
-$mail->From = 'kdrozd@leroymerlin.pl';
+$mail->From = 'MAIL@MAIL.PL';
 $mail->FromName = 'Kamil Drozd';
 $mail->addAddress($mailTo);                                  // Add a recipient
 
 $mail->WordWrap = 100;                                 // Set word wrap to 50 characters
 
-$mail->Subject = 'Hello';
+$mail->Subject = 'Mail From RssMailer APP';
 $mail->Body    = $mailBody;
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo 'Message has been sent';
+    //echo 'Message has been sent';
     header('location:../index.php');
 }
